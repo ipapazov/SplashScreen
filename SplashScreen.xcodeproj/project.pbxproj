@@ -18,6 +18,10 @@
 		7889D0F7144B5D3400BDF0EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7889D0DE144B5D3300BDF0EA /* Foundation.framework */; };
 		7889D0FF144B5D3400BDF0EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7889D0FD144B5D3400BDF0EA /* InfoPlist.strings */; };
 		7889D102144B5D3400BDF0EA /* SplashScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7889D101144B5D3400BDF0EA /* SplashScreenTests.m */; };
+		7889D10D144B5D4D00BDF0EA /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7889D10C144B5D4D00BDF0EA /* MyViewController.m */; };
+		788A8FBF144BCF7F008ACF18 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A8FBE144BCF7F008ACF18 /* SplashScreenViewController.m */; };
+		788A8FC1144BD42C008ACF18 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 788A8FC0144BD42C008ACF18 /* Default.png */; };
+		788A8FC4144BF9BD008ACF18 /* InfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A8FC3144BF9BD008ACF18 /* InfoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +39,25 @@
 		7889D0DC144B5D3300BDF0EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7889D0DE144B5D3300BDF0EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7889D0E0144B5D3300BDF0EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7889D0E4144B5D3300BDF0EA /* SplashScreen-Info.plist */ = {isa = PBXFileReference; path = "SplashScreen-Info.plist"; sourceTree = "<group>"; };
+		7889D0E4144B5D3300BDF0EA /* SplashScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplashScreen-Info.plist"; sourceTree = "<group>"; };
 		7889D0E6144B5D3300BDF0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7889D0E8144B5D3300BDF0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7889D0EA144B5D3300BDF0EA /* SplashScreen-Prefix.pch */ = {isa = PBXFileReference; path = "SplashScreen-Prefix.pch"; sourceTree = "<group>"; };
-		7889D0EB144B5D3300BDF0EA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7889D0EA144B5D3300BDF0EA /* SplashScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashScreen-Prefix.pch"; sourceTree = "<group>"; };
+		7889D0EB144B5D3300BDF0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7889D0EC144B5D3300BDF0EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7889D0F3144B5D3400BDF0EA /* SplashScreenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashScreenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7889D0F4144B5D3400BDF0EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7889D0FC144B5D3400BDF0EA /* SplashScreenTests-Info.plist */ = {isa = PBXFileReference; path = "SplashScreenTests-Info.plist"; sourceTree = "<group>"; };
+		7889D0FC144B5D3400BDF0EA /* SplashScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplashScreenTests-Info.plist"; sourceTree = "<group>"; };
 		7889D0FE144B5D3400BDF0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7889D100144B5D3400BDF0EA /* SplashScreenTests.h */ = {isa = PBXFileReference; path = SplashScreenTests.h; sourceTree = "<group>"; };
+		7889D100144B5D3400BDF0EA /* SplashScreenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreenTests.h; sourceTree = "<group>"; };
 		7889D101144B5D3400BDF0EA /* SplashScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenTests.m; sourceTree = "<group>"; };
+		7889D10B144B5D4D00BDF0EA /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		7889D10C144B5D4D00BDF0EA /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		788A8FBD144BCF7F008ACF18 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		788A8FBE144BCF7F008ACF18 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		788A8FC0144BD42C008ACF18 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		788A8FC2144BF9BD008ACF18 /* InfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoController.h; sourceTree = "<group>"; };
+		788A8FC3144BF9BD008ACF18 /* InfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +119,13 @@
 			children = (
 				7889D0EB144B5D3300BDF0EA /* AppDelegate.h */,
 				7889D0EC144B5D3300BDF0EA /* AppDelegate.m */,
+				7889D10B144B5D4D00BDF0EA /* MyViewController.h */,
+				7889D10C144B5D4D00BDF0EA /* MyViewController.m */,
 				7889D0E3144B5D3300BDF0EA /* Supporting Files */,
+				788A8FBD144BCF7F008ACF18 /* SplashScreenViewController.h */,
+				788A8FBE144BCF7F008ACF18 /* SplashScreenViewController.m */,
+				788A8FC2144BF9BD008ACF18 /* InfoController.h */,
+				788A8FC3144BF9BD008ACF18 /* InfoController.m */,
 			);
 			path = SplashScreen;
 			sourceTree = "<group>";
@@ -116,6 +133,7 @@
 		7889D0E3144B5D3300BDF0EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				788A8FC0144BD42C008ACF18 /* Default.png */,
 				7889D0E4144B5D3300BDF0EA /* SplashScreen-Info.plist */,
 				7889D0E5144B5D3300BDF0EA /* InfoPlist.strings */,
 				7889D0E8144B5D3300BDF0EA /* main.m */,
@@ -215,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7889D0E7144B5D3300BDF0EA /* InfoPlist.strings in Resources */,
+				788A8FC1144BD42C008ACF18 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +270,9 @@
 			files = (
 				7889D0E9144B5D3300BDF0EA /* main.m in Sources */,
 				7889D0ED144B5D3300BDF0EA /* AppDelegate.m in Sources */,
+				7889D10D144B5D4D00BDF0EA /* MyViewController.m in Sources */,
+				788A8FBF144BCF7F008ACF18 /* SplashScreenViewController.m in Sources */,
+				788A8FC4144BF9BD008ACF18 /* InfoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +364,7 @@
 		7889D106144B5D3400BDF0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SplashScreen/SplashScreen-Prefix.pch";
 				INFOPLIST_FILE = "SplashScreen/SplashScreen-Info.plist";
@@ -353,6 +376,7 @@
 		7889D107144B5D3400BDF0EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SplashScreen/SplashScreen-Prefix.pch";
 				INFOPLIST_FILE = "SplashScreen/SplashScreen-Info.plist";
@@ -414,6 +438,7 @@
 				7889D107144B5D3400BDF0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7889D108144B5D3400BDF0EA /* Build configuration list for PBXNativeTarget "SplashScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +447,7 @@
 				7889D10A144B5D3400BDF0EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
