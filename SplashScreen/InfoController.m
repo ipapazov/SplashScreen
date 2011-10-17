@@ -46,14 +46,13 @@
     [myLabel release]; 
     
     NSString * version = [[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleVersion"];
-    [myLabel setText:[NSString stringWithFormat:@"Version: %d", version]];
+    [myLabel setText:[NSString stringWithFormat:@"Version: %@", version]];
     
     UIButton *close = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     close.frame = CGRectMake(10, 10, 100, 50);
     [close setTitle:[NSString stringWithFormat:@"Close"]forState:UIControlStateNormal];
     [close addTarget:self action:@selector(closeView:) forControlEvents:UIControlEventTouchUpInside];
     [infoView addSubview:close];
-        
     
 }
 
@@ -61,14 +60,14 @@
 {
     [self dismissModalViewControllerAnimated:YES];
 }
-
 /*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {
@@ -82,5 +81,5 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-
+*/
 @end

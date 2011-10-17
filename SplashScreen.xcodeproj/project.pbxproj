@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78831F64144C565300C9AF91 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78831F63144C565300C9AF91 /* CircleView.m */; };
 		7889D0DD144B5D3300BDF0EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7889D0DC144B5D3300BDF0EA /* UIKit.framework */; };
 		7889D0DF144B5D3300BDF0EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7889D0DE144B5D3300BDF0EA /* Foundation.framework */; };
 		7889D0E1144B5D3300BDF0EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7889D0E0144B5D3300BDF0EA /* CoreGraphics.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78831F62144C565300C9AF91 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		78831F63144C565300C9AF91 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		7889D0D8144B5D3300BDF0EA /* SplashScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7889D0DC144B5D3300BDF0EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7889D0DE144B5D3300BDF0EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -126,6 +129,8 @@
 				788A8FBE144BCF7F008ACF18 /* SplashScreenViewController.m */,
 				788A8FC2144BF9BD008ACF18 /* InfoController.h */,
 				788A8FC3144BF9BD008ACF18 /* InfoController.m */,
+				78831F62144C565300C9AF91 /* CircleView.h */,
+				78831F63144C565300C9AF91 /* CircleView.m */,
 			);
 			path = SplashScreen;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				7889D10D144B5D4D00BDF0EA /* MyViewController.m in Sources */,
 				788A8FBF144BCF7F008ACF18 /* SplashScreenViewController.m in Sources */,
 				788A8FC4144BF9BD008ACF18 /* InfoController.m in Sources */,
+				78831F64144C565300C9AF91 /* CircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

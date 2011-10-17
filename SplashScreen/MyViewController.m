@@ -9,6 +9,7 @@
 #import "MyViewController.h"
 #import "SplashScreenViewController.h"
 #import "InfoController.h"
+#import "CircleView.h"
 
 @implementation MyViewController
 @synthesize mainView;
@@ -54,6 +55,12 @@
     [info addTarget:self action:@selector(showInfo:) forControlEvents:UIControlEventTouchUpInside];
     [mainView addSubview:info];
     
+    /*
+    CircleView *circleView = [[CircleView alloc] init];
+    [self.view addSubview:circleView];
+    [circleView release];
+     */
+    
 }
 
 - (void)showInfo:(id)sender
@@ -74,7 +81,7 @@
 {
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {
@@ -88,5 +95,5 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-
+*/
 @end
